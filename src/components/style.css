@@ -1,0 +1,97 @@
+.inputContainer{
+    
+    margin-top: 40px;
+}
+.inputContainer>input{
+    background-color:inherit;
+    outline:0px;
+    border:0px;
+    border-bottom: 1px solid white;
+    color:bisque;
+    width:470px;
+    padding:5px;
+    font-size: 1.5rem;
+
+}
+.inputContainer>button{
+    width:100px;
+    background-color: rgb(224, 208, 186);
+    padding: 5px;
+
+}
+.display{
+  
+    width:600px;;
+    margin:auto;
+    margin-top: 50px;
+    height:550px;
+    text-align: start;
+    overflow-y: scroll;
+}
+
+.keyname{
+    background:#576a96;
+    /* width:100%; ctrl slash */
+    /* margin-top: 20px; */
+    color:bisque;
+    border-radius:7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    height:35px;
+    padding-left: 4px;
+}
+.display::-webkit-scrollbar{
+    width:0;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction:row;
+    gap:10px;
+    margin-top:20px;
+    padding:0;
+    height:35px;
+}
+.close{
+    background-color: bisque;
+    height:30px;
+    width:30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+}
+h2{
+    color:bisque;
+}
+.keyname>p{
+    font-size:1.3rem;
+}
+@media  screen and (max-width:600px) {
+    .inputContainer>input{
+        width:50%;
+        font-size: 1.5rem;
+    }
+    .display{
+        width:95vw;
+    }
+    .close{
+      
+        width: 30px;
+    }
+    .inputContainer>button{
+        width:50px;
+        
+    }
+    .wrapper{
+        width:95vw;
+        /* margin:auto; */
+    }
+    .keyname{
+        width:80%;
+    }
+    
+}
