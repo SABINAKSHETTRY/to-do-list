@@ -6,7 +6,7 @@ import DisplayTodo from './components/DisplayTodo';
 import Navbar from './components/Navbar';
 
 function App() {
-  const [store,setstore]=useState([])
+  const [store,setstore]=useState(false)
   return (
 
     <div className="App">
